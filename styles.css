@@ -1,0 +1,78 @@
+.profile {
+    width: 40px;
+    height: 40px;
+}
+img {
+    max-width: 100%;
+}
+.min {
+    color: #727272;
+}
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+.flex {
+    display: flex;
+}
+.tag {
+    background-color: gray;
+    color: white;
+}
+#add-btn {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;           
+  vertical-align: middle;   
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.user-img, .comment-profile-img {
+    width: 40px;
+    height: 40px;
+}
+#user-logged-name {
+    font-weight: bold;
+    color: white;
+}
+.card-body {
+    cursor: pointer;
+}
+/* .edit {
+    float: right;
+    margin-left: 6px;
+} */
+.right {
+    float: right;
+}
+#header-image {
+    width: 80px;
+    height: 80px;
+}
+.numbers{
+    color: #727272;
+    font-weight: 100;
+}
+.number-info span {
+    font-size: 42px;
+    color: black;
+}
+.user-main-info {
+    font-weight: 500;
+    font-size: 20px;
+}
+.userClickedOnPost, .profile {
+    cursor: pointer;
+}
+/* .logout-div {
+    align-items: center;
+    justify-content: center;
+} */
+
